@@ -31,11 +31,11 @@ It reverses the file’s content efficiently using memory mapping (mmap) and dir
 ## Build Instructions
 
 The program builds with NASM and ld. A Makefile is provided.
-'''
+```
 make
 make run ARGS=path/to/file
 make clean
-'''
+```
 ---
 
 ## Implementation Details
